@@ -1,0 +1,25 @@
+ 
+$green-400: rgb(255, 64, 0)(255, 72, 0);
+$white: #ffffff;
+
+.growth-graph-container {
+  width: 60%;
+  height: 16rem;
+  background-color: $white;
+  position: relative;
+}
+
+.growth-indicator {
+  position: absolute;
+  color: $green-400;
+  font-weight: 700;
+  font-size: 1.25rem;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+
+  .arrow-container {
+    display: flex;
+    justify-content: center;
+  }
+}
